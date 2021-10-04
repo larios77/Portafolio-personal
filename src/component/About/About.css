@@ -1,0 +1,63 @@
+/*==================== ABOUT ====================*/
+.about__img {
+  width: 200px;
+  border-radius: 0.5rem;
+  justify-self: center;
+  align-self: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+.about__description {
+  text-align: center;
+  margin-bottom: var(--mb-2-5);
+}
+.about__info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: var(--mb-2-5);
+}
+.about__info-title {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+}
+.about__info-name {
+  font-size: var(--smaller-font-size);
+}
+.about__info-title,
+.about__info-name {
+  display: block;
+  text-align: center;
+}
+.about__buttons {
+  display: flex;
+  justify-content: center;
+}
+.button__about:hover .button__icon {
+  transform: translateX(0.25rem);
+}
+
+/*========== SCROLL UP ==========*/
+.scrollup {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  background-color: var(--first-color);
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  z-index: var(--z-tooltip);
+  transition: 0.4s;
+}
+.scrollup:hover {
+  background-color: var(--first-color-alt);
+}
+.scrollup__icon {
+  font-size: 1.5rem;
+  color: #fff;
+}
+/* Show scroll */
+.show-scroll {
+  bottom: 3rem;
+}
+
