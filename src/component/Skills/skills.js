@@ -29,7 +29,6 @@ function Skills() {
                 <UilBracketsCurly className="skills__icon" />
                 <div>
                   <h1 className="skills__title">Frontend developer</h1>
-                  <span className="skills__subtitle">Por casi 1 año</span>
                 </div>
                 <UilAngleDown className="skills__arrow" />
               </summary>
@@ -72,7 +71,6 @@ function Skills() {
                 <UilSwatchbook className="skills__icon" />
                 <div>
                   <h1 className="skills__title">Designer</h1>
-                  <span className="skills__subtitle">por 6 meses</span>
                 </div>
                 <UilAngleDown className="skills__arrow" />
               </summary>

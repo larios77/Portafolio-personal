@@ -7,6 +7,11 @@
   padding-top: 6rem;
   align-items: center;
 }
+.hero__data .button__hero {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+}
 .button__hero:hover .button__icon {
   transform: translateX(0.25rem);
 }
@@ -72,12 +77,25 @@
 .hero__scroll-arrow {
   font-size: 1.25rem;
 }
+@media screen and (min-width: 375px) {
+  .hero__data .button__hero {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 425px) {
+  .hero__data .button__hero {
+    margin: 0 0 0 50px;
+  }
+}
 @media screen and (min-width: 568px) {
   .hero__content {
     grid-template-columns: max-content 1fr 1fr;
   }
   .hero__data {
     grid-column: initial;
+  }
+  .hero__data .button__hero {
+    margin: 0;
   }
   .hero__img {
     order: 1;

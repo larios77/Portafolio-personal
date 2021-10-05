@@ -26,14 +26,14 @@ function About() {
           <div className="about__data">
             <p className="about__description">
               Soy un desarrollador que desea aprender todos los días y dar lo
-              mejor de mí en cada trabajo, disfruto, ser responsable y trabajar
+              mejor de mí en cada trabajo, disfruto ser responsable y trabajar
               en equipo, eso me define como desarrollador.
             </p>
             <div className="about__info">
               <div>
                 <span className="about__info-title">01+</span>
                 <span className="about__info-name">
-                  Años de <br />
+                  Año de <br />
                   experiencia
                 </span>
               </div>

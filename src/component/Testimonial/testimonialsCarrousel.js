@@ -3,7 +3,7 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import testimonial1 from '../../img/dilan.png'
 import testimonial2 from '../../img/alex'
-import testimonial3 from '../../img/testimonial3.jpg'
+import testimonial3 from '../../img/roy.jpeg'
 import { UilStar } from '@iconscout/react-unicons'
 import './testimonial.css'
 
@@ -51,10 +51,10 @@ function TestimonialsCarrousel() {
                 </div>
                 <p className="testimonial__description">
                   Por la presente certifico que el Ingeniero de Sistemas Frankie
-                  Bendaña Larios Tengo entendido que en el transcurso de la años
-                  que lo conozco y trabajo con él, doy fe de que en todo este
-                  tipo de procesos y Tecnología es una persona que tiene saber
-                  cómo realizar sus trabajos y cargos.
+                  Bendaña Larios, en el transcurso de la años que lo conozco y
+                  trabajo con él, doy fe de que en todo este tipo de procesos y
+                  Tecnología es una persona que sabe cómo realizar sus trabajos
+                  y cargos.
                 </p>
               </div>
             </div>
