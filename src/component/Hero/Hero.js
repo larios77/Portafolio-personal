@@ -5,7 +5,7 @@ import { UilArrowDown } from '@iconscout/react-unicons'
 import { UilMessage } from '@iconscout/react-unicons'
 import { UilFacebookF } from '@iconscout/react-unicons'
 import { UilGithubAlt } from '@iconscout/react-unicons'
-import photoPerfil from '../../img/imagesfonrt.jpeg'
+import photoPerfil from '../../img/imagesfonrt.jpg'
 import Typed from 'typed.js'
 import './Hero.css'
 

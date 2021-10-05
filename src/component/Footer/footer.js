@@ -63,6 +63,14 @@ function Footer() {
           <p className="footer__copy">
             &#169; Frankie. Todos los derechos reservados
           </p>
+          <a
+            className="link__footer"
+            href="http://www.freepik.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Designed by stories / Freepik
+          </a>
         </div>
       </footer>
     </div>

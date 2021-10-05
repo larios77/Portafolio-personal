@@ -26,6 +26,7 @@
   background-color: var(--input-color);
   border-radius: 0.5rem;
   padding: 0.75rem 1rem 0.25rem;
+  border: 1px solid var(--first-color);
 }
 .button__message {
   width: 55%;
@@ -53,7 +54,7 @@ textarea {
   padding: 0.25rem 0.5rem 0.5rem 0;
 }
 .message {
-  background-color: #37a537;
+  background-color: #3fcc3f;
   color: #fff;
   padding: 8px;
   border-radius: 0px 10px 10px 10px;
@@ -61,5 +62,18 @@ textarea {
 @media screen and (min-width: 375px) {
   .contact__form {
     width: 100%;
+  }
+}
+@media screen and (min-width: 568px) {
+  .contact__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .contact__form {
+    width: 460px;
+  }
+  .contact__inputs {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

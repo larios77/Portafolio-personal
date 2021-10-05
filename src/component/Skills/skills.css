@@ -53,3 +53,8 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+@media screen and (min-width: 568px) {
+  .skills__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
