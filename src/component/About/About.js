@@ -54,7 +54,7 @@ function About() {
             </div>
             <div className="about__buttons">
               <a
-                href="https://drive.google.com/file/d/1iJ0hR1EGYqCzfB2hmBurvFLPXHOwE29u/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/1kMQKYmZaQV8hfdfkGJUhfdAHhaDy9k5O/view?usp=drivesdk"
                 target="_blank"
                 rel="noreferrer"
                 className="button button--flex button__about"
