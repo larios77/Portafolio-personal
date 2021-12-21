@@ -36,7 +36,10 @@
 }
 .portfolio__button {
   margin: 16px auto;
-  width: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .portfolio__button:hover .button__icon {
   transform: translateX(0.25rem);

@@ -4,7 +4,7 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import portfolio1 from '../../img/calculator.png'
 import portfolio2 from '../../img/jobs.png'
-import portfolio3 from '../../img/landing.png'
+import portfolio3 from '../../img/space.png'
 import portfolio4 from '../../img/todoList.png'
 import portfolio5 from '../../img/rickAndMortyAPI.png'
 import { UilArrowRight } from '@iconscout/react-unicons'
@@ -115,13 +115,14 @@ function CarrouselPortfolio() {
                       className="portfolio__img"
                     />
                     <div className="portfolio__data">
-                      <h3 className="portfolio__title">Landing Bookmark</h3>
+                      <h3 className="portfolio__title">Space</h3>
                       <p className="portfolio__description">
-                        es un sitio web adaptable, hecho en react js
+                        es un sitio web adaptable, hecho en react js y
+                        react-router-dom
                       </p>
                       <div className="portfolio__content-button">
                         <a
-                          href="https://landing-page-larios77.vercel.app/"
+                          href="https://space-larios77.vercel.app/"
                           target="_blank"
                           rel="noreferrer"
                           className="button button--flex button--small portfolio__button"
@@ -130,7 +131,7 @@ function CarrouselPortfolio() {
                           <UilArrowRight className="button__icon" />
                         </a>
                         <a
-                          href="https://github.com/larios77/Landing-page"
+                          href="https://github.com/larios77/Space"
                           target="_blank"
                           rel="noreferrer"
                           className="button button--flex button--small portfolio__button"
