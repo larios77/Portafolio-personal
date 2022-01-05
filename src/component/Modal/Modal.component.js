@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import ReactDOM from 'react-dom'
-import './Modal.css'
+import { ContainerModal, ModalContent } from './styles'
 
 export default function Modal({ children }) {
   const handleClick = e => {
@@ -16,11 +16,9 @@ export default function Modal({ children }) {
   }, [])
 
   return ReactDOM.createPortal(
-    <div className="modal__overlay">
-      <div className="modal__content" onClick={handleClick}>
-        {children}
-      </div>
-    </div>,
+    <ContainerModal>
+      <ModalContent onClick={handleClick}>{children}</ModalContent>
+    </ContainerModal>,
     document.getElementById('modal')
   )
 }
