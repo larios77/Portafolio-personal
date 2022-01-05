@@ -2,7 +2,7 @@ import { darkTheme, lightTheme } from '../store/initialState'
 import { useLocalStorage } from '../hook/useLocalStorage'
 
 const useInitialState = () => {
-  const [theme, setTheme] = useLocalStorage('theme', lightTheme)
+  const [theme, setTheme] = useLocalStorage('theme', darkTheme)
   const [isDarkModeActive, setIsDarkModeActive] = useLocalStorage(
     'isDarkModeActive',
     true
